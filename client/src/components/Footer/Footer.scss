@@ -11,6 +11,7 @@
             flex-direction: column;
             gap: 10px;
             text-align: justify;
+            font-size: 14px;
 
             h1 {
                 font-size: 18px;
@@ -21,12 +22,31 @@
     }
 
     .bottom {
-        .left{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
 
+        .left{
+            display: flex;
+            align-items: center;
+
+            .logo {
+                color: #2879fe;
+                font-weight: bold;
+                font-size: 24px;
+            }
+
+            .copyright {
+                margin-left: 20px;
+                font-style: 12px;
+                color: gray;
+            }
         }
 
         .right{
+            img {
 
+            }
         }
     }
 }
